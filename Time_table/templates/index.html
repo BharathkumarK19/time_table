@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+        <h1 class="h3 mb-3">Automatic Timetable Generator</h1>
+        <p class="text-muted">
+          Use the web interface to enter multiple faculties and their lab/theory allocations.
+          We’ll generate Excel timetables for each faculty and each (Sem/Div).
+        </p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('builder') }}">Start Building</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

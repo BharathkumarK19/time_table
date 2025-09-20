@@ -1,0 +1,19 @@
+2025-09-13 00:31:20 | INFO    | Timetable generator started
+2025-09-13 00:31:20 | INFO    | Beginning scheduling run at 2025-09-13 00:31:20
+2025-09-13 00:32:02 | INFO    | Recorded holidays for Sem3 DivA => ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
+2025-09-13 00:32:32 | INFO    | Recorded holidays for Sem3 DivB => ['Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+2025-09-13 00:32:49 | INFO    | Applied free-day marking for Sem3 DivA => ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
+2025-09-13 00:32:49 | INFO    | Applied free-day marking for Sem3 DivB => ['Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+2025-09-13 00:32:49 | INFO    | Scheduling faculty: MSK (Shift=8-3)
+2025-09-13 00:32:49 | INFO    | [SUCCESS] Lab: FLAT (A1) assigned by MSK -> Sem3 DivA at Sat F=(8-8:45,8:45-9:45) D=(8-8:45,8:45-9:45)
+2025-09-13 00:32:49 | DEBUG   | [PLACED] Lab FLAT for MSK Sem3 DivA batch=A1
+2025-09-13 00:32:49 | INFO    | [SUCCESS-FLEX] Lab: FLAT (A1) assigned by MSK -> Sem3 DivA Fday=Mon Dday=Sat
+2025-09-13 00:32:49 | DEBUG   | [PLACED] Lab FLAT for MSK Sem3 DivA batch=A1
+2025-09-13 00:32:49 | INFO    | [SUCCESS] Theory: FLAT assigned by MSK -> Sem3 DivB at Mon F=12:45-1:45 D=12:45-1:45
+2025-09-13 00:32:49 | DEBUG   | [PLACED] Theory FLAT for MSK Sem3 DivB
+2025-09-13 00:32:49 | INFO    | [SUCCESS] Theory (fallback): FLAT assigned by MSK -> Sem3 DivB at Mon F=1:45-2:45 D=1:45-2:45
+2025-09-13 00:32:49 | DEBUG   | [PLACED] Theory FLAT for MSK Sem3 DivB
+2025-09-13 00:32:49 | INFO    | Saved Excel file: Faculty_MSK.xlsx
+2025-09-13 00:32:49 | INFO    | Saved Excel file: Sem3_DivA.xlsx
+2025-09-13 00:32:49 | INFO    | Saved Excel file: Sem3_DivB.xlsx
+2025-09-13 00:32:49 | INFO    | Scheduling run complete. Check generated Excel files and logs.txt for logs.

@@ -1,0 +1,10 @@
+.card { border-radius: 12px; }
+#facultiesContainer .card { border: 1px solid #e9ecef; }
+.fieldset {
+  padding: 16px;
+  border: 1px dashed #cfd8dc;
+  border-radius: 10px;
+  background: #fafafa;
+}
+.small-label { font-size: 0.9rem; color: #666; }
+.subject-card { border-radius: 10px; }
